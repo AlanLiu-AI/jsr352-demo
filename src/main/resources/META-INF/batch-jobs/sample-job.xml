@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job id="sample-job" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+    <step id="sample-step">
+        <chunk item-count="2">
+            <reader ref="liruunner.examples.jsr352.SampleItemReader"/>
+            <writer ref="liruunner.examples.jsr352.SampleItemWriter"/>
+        </chunk>
+    </step>
+</job>
+
